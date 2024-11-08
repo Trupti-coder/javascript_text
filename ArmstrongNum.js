@@ -13,3 +13,4 @@ function isArmstrong(number){
 }
 console.log(isArmstrong(153));
 console.log(isArmstrong(122));
+console.log(isArmstrong(-156));

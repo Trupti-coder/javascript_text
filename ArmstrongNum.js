@@ -4,6 +4,10 @@ function isArmstrong(number){
     let digits=String(number).length;
 
     while(temp>0){
-        
+        let lastDigit=temp%10;
+        sum+=lastDigit**digits;
+        temp=Math.floor(temp/10);
+
     }
+    return sum===number;
 }

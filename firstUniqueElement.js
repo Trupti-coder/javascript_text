@@ -16,3 +16,5 @@ function firstUnique(nums){
     }
     return -1;
 }
+const nums=[4,5,1,2,0,4,1,2];
+console.log(firstUnique(nums));

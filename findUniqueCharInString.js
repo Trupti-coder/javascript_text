@@ -10,3 +10,5 @@ function hasUniqueChars(str){
     }
     return true;
 }
+console.log(hasUniqueChars("hello"));
+console.log(hasUniqueChars("car"));

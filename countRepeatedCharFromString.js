@@ -7,11 +7,12 @@ function compressString(str){
             count++;
         }
         else{
-            compresses +=str[i-1]+count;
+            compressed += str[i-1]+count;
             count=1;
         }
     }
-    compressed += str[str.length-1]+count;
+    compressed += str[str.length-1]+(count > 1 ? count : '');
     return compressed.length<str.length ? compressed :str;
 
 }
+console.log(compressString("aaabbc"));

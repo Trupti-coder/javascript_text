@@ -19,8 +19,13 @@ function countConsonants(str){
             }
             
         }
-        return countConsonants;
+        
 
     }
+    return countConsonants;
 
 }
+
+console.log(countConsonants("Hello world"));
+console.log(countConsonants("Javascript"));
+console.log(countConsonants("AEIOUaeiou"));

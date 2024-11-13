@@ -12,3 +12,5 @@ function findDivisors(n){
     return divisors;
 
 }
+console.log(findDivisors(28));
+console.log(findDivisors(12));

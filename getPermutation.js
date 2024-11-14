@@ -21,3 +21,4 @@ function getPermutations(str){
     }
     return permutation;
 }
+console.log(getPermutations("abc"));

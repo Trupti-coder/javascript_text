@@ -8,4 +8,5 @@ function removeFalsyValue(arr){
     return result;
 
 }
-
+const arr=[0,1,false,2,"",3,NaN,4,undefined,null];
+console.log(removeFalsyValue(arr));

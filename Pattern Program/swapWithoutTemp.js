@@ -5,3 +5,12 @@ console.log(`before Swap:a=${a},b:${b}`);
 a=a+b;
 b=a-b;
 a=a-b;
+console.log(`after swap:a=${a},${b}`);
+//Swap using Mul and Div
+console.log(`before Swap:a=${a},b:${b}`);
+ a=a*b;
+ b=a/b;
+ a=a/b;
+console.log(`after swap:a=${a},${b}`);
+
+

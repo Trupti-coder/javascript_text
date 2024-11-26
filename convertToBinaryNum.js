@@ -3,7 +3,7 @@ function toBinary(n){
 
     let binary ="";
     while(n>0){
-        let remainder =n%2;
+        let remainder=n%2;
         binary=remainder+binary;
         n=Math.floor(n/2);
     }
@@ -11,3 +11,4 @@ function toBinary(n){
 
 }
 console.log(toBinary(5));
+console.log(toBinary(15))

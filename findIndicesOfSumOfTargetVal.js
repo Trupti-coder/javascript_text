@@ -1,0 +1,3 @@
+function findIndices(arr,target){
+    
+}

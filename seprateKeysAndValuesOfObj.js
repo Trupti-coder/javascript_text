@@ -18,3 +18,13 @@ function seprateKeysAndValues(){
         values:values
     };
 }
+//Example
+let exampleObj={
+    name:'Alice',
+    age:25,
+    city:'Wonderland'
+};
+
+let result=seprateKeysAndValues(exampleObj);
+console.log(result.keys);
+console.log(result.values);

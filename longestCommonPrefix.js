@@ -10,3 +10,4 @@ function longestCommonPrefix(arr){
   return prefix;
   
 }
+console.log(longestCommonPrefix(["flower", "flow", "flight"])); 

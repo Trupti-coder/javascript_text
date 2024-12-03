@@ -7,5 +7,6 @@ function longestCommonPrefix(arr){
             if (prefix === '') return '';
         }
   }
+  return prefix;
   
 }

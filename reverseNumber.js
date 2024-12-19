@@ -14,6 +14,10 @@ function reverseNumber(number) {
 
     return reversed;
 }
+// Test the function
+console.log(reverseNumber(1234));  // Outputs: 4321
+console.log(reverseNumber(9876));  // Outputs: 6789
+console.log(reverseNumber(100));   // Outputs: 1
 
 
 

@@ -19,4 +19,11 @@ function isPalindromeNumber(num) {
     return originalNum === reversedNum;
 }
 
+// Test the function
+console.log(isPalindromeNumber(121)); // true
+console.log(isPalindromeNumber(-121)); // false
+console.log(isPalindromeNumber(123)); // false
+console.log(isPalindromeNumber(0)); // true
+
+
 

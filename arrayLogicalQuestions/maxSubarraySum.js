@@ -7,3 +7,6 @@ function maxSubarraySum(arr) {
     return maxSum;
  
 }
+// Input
+let arr4 = [-2, -3, 4, -1, -2, 1, 5, -3];
+console.log(maxSubarraySum(arr4)); // Output: 7

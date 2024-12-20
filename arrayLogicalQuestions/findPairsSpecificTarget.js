@@ -10,3 +10,6 @@ function findPairs(arr, target) {
     }
     return pairs;
 }
+let arr2 = [1, 4, 6, 2, 3];
+let target = 6;
+console.log(findPairs(arr2, target)); // Output: [[4, 2], [6, 0]]

@@ -12,3 +12,7 @@ function intersectionOfArray(arr1,arr2){
     }
 return result;
 }
+// Input
+let arr10_1 = [1, 2, 2, 3];
+let arr10_2 = [2, 2];
+console.log(intersection(arr10_1, arr10_2)); // Output: [2, 2]

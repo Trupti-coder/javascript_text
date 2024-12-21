@@ -16,3 +16,7 @@ function majorityElement(arr){
     return count > arr.length / 2 ? candidate : null;
     
 }
+
+// Input
+let arr6 = [3, 3, 4, 2, 4, 4, 2, 4, 4];
+console.log(majorityElement(arr6)); // Output: 4

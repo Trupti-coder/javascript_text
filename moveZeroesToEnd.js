@@ -1,15 +1,15 @@
-function moveZeroesToEnd(nums){
+function moveZeroesToEnd(arr){
     let nonZeroIndex=0;
-    for(let i=0;i<nums.length;i++){
-        if(nums[i]!==0){
-            let temp=nums[nonZeroIndex];
-            nums[nonZeroIndex]=nums[i];
-            nums[i]=temp;
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]!==0){
+            let temp=arr[nonZeroIndex];
+            arr[nonZeroIndex]=arr[i];
+            arr[i]=temp;
 
             nonZeroIndex++;
         }
     }
-    return nums;
+    return arr;
 }
-const nums=[0,1,4,5,7,0,3,0,9];
-console.log(moveZeroesToEnd(nums));
+const arr=[0,1,4,5,7,0,3,0,9];
+console.log(moveZeroesToEnd(arr));

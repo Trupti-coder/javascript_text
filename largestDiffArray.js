@@ -1,3 +1,4 @@
+
 function largestDifference(arr) {
     if (arr.length < 2) {
         return 0; // If there are fewer than 2 elements, there's no meaningful difference

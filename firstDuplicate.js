@@ -9,3 +9,7 @@ function findFirstDuplicate(){
     return -1;
 
 }
+
+// Example Input
+let nums = [2, 5, 1, 2, 3, 5, 1, 2, 4];
+console.log(findFirstDuplicate(nums));

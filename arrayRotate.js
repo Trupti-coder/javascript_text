@@ -1,3 +1,4 @@
+
 function rotateArray(arr, k) {
     let n = arr.length;
     k = k % n;  // Handle if k is greater than the array length

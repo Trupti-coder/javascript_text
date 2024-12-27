@@ -11,4 +11,4 @@ function toBinary(n){
 
 }
 console.log(toBinary(5));
-console.log(toBinary(15))
+console.log(toBinary(15));

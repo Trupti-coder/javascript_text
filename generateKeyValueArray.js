@@ -15,3 +15,8 @@ var exampleObj = {
     age: 25,
     profession: "Engineer"
 };
+
+
+var result = generateKeyValueArray(exampleObj);
+console.log("Keys:", result.keys);     // Output: Keys: [ 'name', 'age', 'profession' ]
+console.log("Values:", result.values); // Output: Values: [ 'Alice', 25, 'Engineer' ]

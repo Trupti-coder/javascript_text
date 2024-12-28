@@ -9,3 +9,9 @@ function generateKeyValueArray(obj){
     return {keys:keys,values:values};
 
 }
+// Example usage
+var exampleObj = {
+    name: "Alice",
+    age: 25,
+    profession: "Engineer"
+};

@@ -15,3 +15,5 @@ function mergeTwoObject(obj1,obj2){
     }
     return result;
 }
+console.log(mergeObjects({ a: 5, b: 10 }, { b: 5, c: 20 }));
+// Output: { a: 5, b: 15, c: 20 }

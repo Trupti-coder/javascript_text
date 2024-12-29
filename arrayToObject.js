@@ -7,3 +7,6 @@ function arrayToObject(arr){
     }
     return result;
 }
+
+console.log(arrayToObject([{ id: 1, name: 'Alice' }, { id: 2, name: 'Bob' }]));
+// Output: { 1: { id: 1, name: 'Alice' }, 2: { id: 2, name: 'Bob' } }

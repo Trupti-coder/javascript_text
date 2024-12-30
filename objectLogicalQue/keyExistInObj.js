@@ -8,3 +8,5 @@ function hasKey(obj,key){
     }
     return false;
 }
+console.log(hasKey(obj,"c"));
+console.log(hasKey(obj,"g"));

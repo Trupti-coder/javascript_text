@@ -8,3 +8,4 @@ function getKey(obj){
     }
     return keys;
 }
+console.log(getKey(obj));

@@ -23,3 +23,6 @@ function objectAreEqual(obj1,obj2){
    return true;
 }
 
+let obj1={a:1,b:2,c:3};
+let obj2={a:1,b:2,c:3};
+console.log(objectAreEqual(obj1,obj2));

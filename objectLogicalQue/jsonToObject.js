@@ -1,3 +1,4 @@
-function parse(){
-    
+function parseJSON(){
+    return eval('(' + json + ')');
+
 }

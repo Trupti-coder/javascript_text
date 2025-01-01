@@ -10,3 +10,8 @@ function getNestedProperty(obj,keys){
     return current;
 
 }
+
+// Example
+let nestedObj = { a: { b: { c: 42 } } };
+console.log(getNestedProperty(nestedObj, ['a', 'b', 'c'])); // 42
+console.log(getNestedProperty(nestedObj, ['a', 'b', 'd'])); // undefined

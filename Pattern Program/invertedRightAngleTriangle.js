@@ -8,3 +8,4 @@ function invertedTriangle(rows){
     }
 
 }
+invertedTriangle(5);

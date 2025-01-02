@@ -9,3 +9,4 @@ function square(rows){
     }
 
 }
+console.log(square(5));

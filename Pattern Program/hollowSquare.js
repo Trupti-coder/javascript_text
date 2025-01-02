@@ -11,4 +11,4 @@ function hollowSquare(rows){
         console.log(str);
     }
 }
-hollowSquare(5);
+console.log(hollowSquare(5));

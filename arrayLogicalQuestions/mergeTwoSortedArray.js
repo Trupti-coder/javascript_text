@@ -29,3 +29,9 @@ function mergeSortedArray(arr1,arr2){
     return mergedArray;
 
 }
+
+// Example usage
+let array1 = [1, 3, 5];
+let array2 = [2, 4, 6];
+let result = mergeSortedArrays(array1, array2);
+console.log(result); // Output: [1, 2, 3, 4, 5, 6]

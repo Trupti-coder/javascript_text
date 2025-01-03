@@ -13,4 +13,14 @@ function findMajorityElementInArray(arr){
             }
         }
 
+
+        // Update majority element if this element occurs more frequently
+        if (count > maxCount) {
+            maxCount = count;
+            majorityElement = arr[i];
+        }
+    }
+
+    return majorityElement;
+
 }

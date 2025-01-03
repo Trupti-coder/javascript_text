@@ -20,4 +20,12 @@ function mergeSortedArray(arr1,arr2){
         i++;
     }
 
+    // Add any remaining elements from arr2
+    while (j < arr2.length) {
+        mergedArray.push(arr2[j]);
+        j++;
+    }
+
+    return mergedArray;
+
 }

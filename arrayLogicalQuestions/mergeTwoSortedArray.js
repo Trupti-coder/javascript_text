@@ -14,4 +14,10 @@ function mergeSortedArray(arr1,arr2){
         }
     }
 
+    // Add any remaining elements from arr1
+    while (i < arr1.length) {
+        mergedArray.push(arr1[i]);
+        i++;
+    }
+
 }

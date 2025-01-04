@@ -7,20 +7,23 @@ function chunkArray(arr,k){
 
     for(let i=0;i<arr.length;i++){    // function ueses for loop for going through each element in an array
         chunk.push(arr[i]);
-    }
 
-    if(chunk.size===k){         // if chunk size is equal to the desired size then push chunk into the result.
-        result.push(chunk);
-        chunk=[];
+        if(chunk.length===k){  // if chunk size is equal to the desired size then push chunk into the result.
+            result.push(chunk);
+            chunk=[];
+        }                          
+        
     }
-
 
     if(chunk.length>0){
         result.push(chunk);
     }
 
-
 return result;
-
-
 }
+
+//Example
+
+let arr=[1,2,3,4,5,6,7,8];
+let k=2;
+console.log(chunkArray(arr,k));

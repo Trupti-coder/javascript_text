@@ -15,7 +15,12 @@ function chunkArray(arr,k){
     }
 
 
+    if(chunk.length>0){
+        result.push(chunk);
+    }
 
+
+return result;
 
 
 }

@@ -24,3 +24,6 @@ function findMajorityElementInArray(arr){
     return majorityElement;
 
 }
+// Example
+let array = [1, 3, 2, 3, 3, 4, 1, 3];
+console.log(findMajorityElement(array));

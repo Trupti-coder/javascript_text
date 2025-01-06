@@ -12,3 +12,5 @@ function hollowRightTriangle(){
     }
 
 }
+
+hollowRightTriangle(5);

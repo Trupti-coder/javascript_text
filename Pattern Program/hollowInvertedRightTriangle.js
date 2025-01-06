@@ -1,4 +1,4 @@
-function hollowInvertedRightTriangle(){
+function hollowInvertedRightTriangle(rows){
 
     for (let i = rows; i >= 1; i--) {
         let str = '';
@@ -14,3 +14,4 @@ function hollowInvertedRightTriangle(){
 
 }
 
+hollowInvertedRightTriangle(5);

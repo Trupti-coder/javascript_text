@@ -14,3 +14,14 @@ function hollowRightTriangle(){
 }
 
 hollowRightTriangle(5);
+
+/*
+//output
+
+*
+**
+* *
+*  *
+*****
+
+*/

@@ -18,3 +18,19 @@ function rightPascalsTriangle(rows){
     }
 
 }
+
+rightPascalsTriangle(5);
+
+/* output
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+*/

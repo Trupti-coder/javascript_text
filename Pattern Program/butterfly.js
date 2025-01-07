@@ -5,7 +5,7 @@ function butterfly(rows){
         str+='*';
       }
       for(let k=1;k<=(2*rows-2*i); k++){
-        str+='';
+        str+=' ';
       }
       for(let j=1;j<=i;j++){
         str+="*";
@@ -21,7 +21,7 @@ function butterfly(rows){
     }
 
     for(let k=1;k<=(2*rows-2*i);k++){
-        str+='';
+        str+=' ';
     }
     for(let j=1;j<=i;j++){
         str+='*';
@@ -29,3 +29,4 @@ function butterfly(rows){
     console.log(str);
   }
 }
+butterfly(5);

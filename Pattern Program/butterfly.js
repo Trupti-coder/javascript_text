@@ -13,4 +13,12 @@ function butterfly(rows){
       console.log(str);
   } 
 
+  //lower part
+  for(let i=rows;i>=1;i--){
+    let str='';
+    for(let j=1;j<=i;j++){
+        str+='*';
+    }
+    
+  }
 }

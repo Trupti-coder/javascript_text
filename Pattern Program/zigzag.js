@@ -14,3 +14,5 @@ function zigzag(rows){
     }
 
 }
+
+zigzag(15);

@@ -25,3 +25,4 @@ function sandglass(rows){
         console.log(str);
     }
 }
+sandglass(5)

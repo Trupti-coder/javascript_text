@@ -1,4 +1,4 @@
-function hollowDiamond(){
+function hollowDiamond(rows){
     // Upper part
     for (let i = 1; i <= rows; i++) {
         let str = '';
@@ -32,3 +32,5 @@ function hollowDiamond(){
 }
 
 }
+
+hollowDiamond(5)

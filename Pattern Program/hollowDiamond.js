@@ -12,4 +12,11 @@ function hollowDiamond(){
                 str += ' ';
             }
         }
+
+        // Lower part
+    for (let i = rows - 1; i >= 1; i--) {
+        let str = '';
+        for (let j = 1; j <= rows - i; j++) {
+            str += ' ';
+        }
 }

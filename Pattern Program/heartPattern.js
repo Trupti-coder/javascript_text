@@ -1,4 +1,4 @@
-function heartPattern(){
+function heartPattern(rows){
     let n=rows/2;
     for(let i = n / 2; i <= n; i += 2){
         let str = '';
@@ -28,3 +28,4 @@ function heartPattern(){
         console.log(str);
     }
 }
+heartPattern(10);

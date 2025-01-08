@@ -1,4 +1,4 @@
-function hexagon(){
+function hexagon(rows){
     for(let i=1;i<=rows;i++){
         let str = '';
         for (let j = 1; j <= rows - i; j++) {
@@ -14,5 +14,8 @@ function hexagon(){
         for (let j = 1; j <= i; j++) {
             str += ' ';
         }
+        console.log(str);
+    }
 
 }
+hexagon(5);

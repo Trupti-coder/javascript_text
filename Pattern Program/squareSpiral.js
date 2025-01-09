@@ -8,4 +8,16 @@ function squareSpiral(){
             matrix[top][i] = '*';
         }
         top++;
+
+        for (let i = top; i <= bottom; i++) {
+            matrix[i][right] = '*';
+        }
+        right--;
+        
+        if (top <= bottom) {
+            for (let i = right; i >= left; i--) {
+                matrix[bottom][i] = '*';
+            }
+            bottom--;
+        }
 }

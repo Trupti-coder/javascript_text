@@ -20,4 +20,16 @@ function squareSpiral(){
             }
             bottom--;
         }
+
+        if (left <= right) {
+            for (let i = bottom; i >= top; i--) {
+                matrix[i][left] = '*';
+            }
+            left++;
+        }
+    }
+    
+    for (let i = 0; i < n; i++) {
+        console.log(matrix[i].join(''));
+    }
 }

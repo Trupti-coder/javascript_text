@@ -14,5 +14,10 @@ function hourglassOutline(){
     }
     console.log(str);
 }
-
+for (let i = 2; i <= rows; i++) {
+    let str = '';
+    for (let j = 1; j <= rows - i; j++) {
+        str += ' ';
+    }
 }
+

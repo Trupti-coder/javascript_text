@@ -1,4 +1,4 @@
-function rightArrowhead(){
+function rightArrowhead(rows){
     for (let i = 1; i <= rows; i++) {
         let str = '';
         for (let j = 1; j <= i; j++) {
@@ -15,3 +15,4 @@ function rightArrowhead(){
         console.log(str);
     }
 }
+rightArrowhead(5);

@@ -14,6 +14,9 @@ function  doublePyramid(){
         console.log(str);
     }
 
+    for (let i = rows - 1; i >= 1; i--) {
+        let str = '';
+
 
     }
 

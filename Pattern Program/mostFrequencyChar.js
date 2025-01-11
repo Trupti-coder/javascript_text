@@ -1,4 +1,4 @@
-function mostFreqChar(){
+function mostFreqChar(str){
     let freq={};
     for(let i=0;i<str.length;i++){
         if(!freq[str[i]]){
@@ -17,4 +17,7 @@ function mostFreqChar(){
             maxCount=freq[key];
         }
     }
+    return maxChar;
 }
+let str="aabccsssss"
+console.log(mostFreqChar(str));

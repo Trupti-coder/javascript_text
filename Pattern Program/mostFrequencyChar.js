@@ -8,4 +8,13 @@ function mostFreqChar(){
             freq[str[i]]++;
         }
     }
+
+    let maxChar="";
+    let maxCount=0;
+    for(let key in freq){
+        if(freq[key]>maxCount){
+            maxChar=key;
+            maxCount=freq[key];
+        }
+    }
 }

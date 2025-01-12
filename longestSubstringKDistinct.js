@@ -9,4 +9,16 @@ function longestSubstringKDistinct(){
             charCount[char] = 0;
         }
         charCount[char]++;
+
+        while (Object.keys(charCount).length > k) {
+            let startChar = s[start];
+            charCount[startChar]--;
+            if (charCount[startChar] === 0) {
+                delete charCount[startChar];
+            }
+            start++;
+        }
+        maxLength = Math.max(maxLength, end - start + 1);
+    }
+    return maxLength;
 }

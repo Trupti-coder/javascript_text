@@ -1,3 +1,5 @@
 function groupAnagrams(){
-    
+    let group={};
+
+   
 }

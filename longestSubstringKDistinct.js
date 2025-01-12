@@ -1,4 +1,4 @@
-function longestSubstringKDistinct(){
+function longestSubstringKDistinct(s,k){
     let maxLength = 0;
     let start = 0;
     let charCount = {};
@@ -22,3 +22,6 @@ function longestSubstringKDistinct(){
     }
     return maxLength;
 }
+let s="abcmdhfggggg";
+  let k=2
+console.log(longestSubstringKDistinct(s,k));

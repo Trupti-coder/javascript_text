@@ -10,5 +10,5 @@ function wordBreak(s,wordDict){
             }
         }
     }
-    
+    return dp[s.length];
 }

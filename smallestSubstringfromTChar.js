@@ -1,4 +1,4 @@
-function smallestSubstringTChar(){
+function smallestSubstringTChar(s,t){
     let minLength = Infinity;
     let minStart = 0;
     let start = 0;
@@ -38,3 +38,6 @@ function smallestSubstringTChar(){
 
     return minLength === Infinity ? "" : s.substring(minStart, minStart + minLength);
 }
+ let s = "ADOBECODEBANC";
+  let t = "ABC";
+console.log(smallestSubstringTChar(s,t))

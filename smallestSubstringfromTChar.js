@@ -20,4 +20,21 @@ function smallestSubstringTChar(){
                 count--;
             }
         }
+
+        while (count === 0) {
+            if (end - start + 1 < minLength) {
+                minLength = end - start + 1;
+                minStart = start;
+            }
+            if (charCount[s[start]] !== undefined) {
+                charCount[s[start]]++;
+                if (charCount[s[start]] > 0) {
+                    count++;
+                }
+            }
+            start++;
+        }
+    }
+
+    return minLength === Infinity ? "" : s.substring(minStart, minStart + minLength);
 }

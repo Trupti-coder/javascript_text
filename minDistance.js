@@ -1,4 +1,4 @@
-function minDistance(){
+function minDistance(word1,word2){
     let dp = Array(word1.length + 1).fill().map(() => Array(word2.length + 1).fill(0));
     for (let i = 0; i <= word1.length; i++){
         for (let j = 0; j <= word2.length; j++) {
@@ -13,4 +13,5 @@ function minDistance(){
             }
         }
     }
+    return dp[word1.length][word2.length];
 }

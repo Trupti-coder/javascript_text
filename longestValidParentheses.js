@@ -7,6 +7,12 @@ function longestValidParentheses(){
             stack.push(i);
         } else {
             stack.pop();
+            if (stack.length === 0) {
+                stack.push(i);
+            } else {
+                maxLength = Math.max(maxLength, i - stack[stack.length - 1]);
+            }
+        }
 
     }
 }

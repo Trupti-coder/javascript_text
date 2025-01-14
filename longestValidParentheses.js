@@ -1,4 +1,4 @@
-function longestValidParentheses(){
+function longestValidParentheses(s){
     let stack = [-1];
     let maxLength = 0;
 
@@ -15,4 +15,5 @@ function longestValidParentheses(){
         }
 
     }
+    return maxLength;
 }

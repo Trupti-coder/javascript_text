@@ -1,4 +1,4 @@
-function permutation(){
+function permutation(s){
     let results = [];
     function permute(arr, m = []) {
         if (arr.length === 0){
@@ -13,4 +13,7 @@ function permutation(){
             }
         }
     }
+    permute(s.split(''));
+    return results;
+
 }
